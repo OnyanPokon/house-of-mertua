@@ -1,0 +1,6 @@
+{
+  "name": "House Of Mertua",
+  "description": "Modern e-commerce landing page and ordering system for House Of Mertua burger restaurant.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
