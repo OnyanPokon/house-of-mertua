@@ -1,4 +1,4 @@
-import { Instagram, Twitter, Facebook, ExternalLink } from "lucide-react";
+import { Instagram } from "lucide-react";
 
 export default function Footer() {
   return (
@@ -7,7 +7,7 @@ export default function Footer() {
         <div className="flex flex-col md:flex-row items-center gap-8 text-[10px] uppercase tracking-[0.3em] font-bold">
           <div className="flex items-center gap-2">
             <Instagram size={14} />
-            <span>@houseofmertua</span>
+            <span>@house_of_mertua</span>
           </div>
           <div className="flex items-center gap-2">
             <span>WA: +62 812-3456-7890</span>
@@ -19,10 +19,10 @@ export default function Footer() {
         </div>
 
         <div className="text-[10px] uppercase tracking-[0.2em] font-bold opacity-60">
-          &copy; 2026 House of Mertua Restaurant Group
+          &copy; 2026 House of Mertua
         </div>
       </div>
-      
+
       {/* Bottom accent line */}
       <div className="h-2 bg-white/20 w-full" />
     </footer>

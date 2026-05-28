@@ -91,7 +91,6 @@ Detail Alamat:
                       <input
                         type="text"
                         required
-                        value={formData.name}
                         onChange={e => setFormData({ ...formData, name: e.target.value })}
                         placeholder="Contoh: Budi Mertua"
                         className="bg-transparent border-none focus:ring-0 w-full font-bold text-brand-dark uppercase text-xs tracking-widest"
@@ -106,7 +105,6 @@ Detail Alamat:
                       <input
                         type="tel"
                         required
-                        value={formData.phone}
                         onChange={e => setFormData({ ...formData, phone: e.target.value })}
                         placeholder="+62 8XX XXXX"
                         className="bg-transparent border-none focus:ring-0 w-full font-bold text-brand-dark uppercase text-xs tracking-widest"
@@ -120,7 +118,6 @@ Detail Alamat:
                       <MapPin size={18} className="text-gray-400 mr-4 mt-1" />
                       <textarea
                         required
-                        value={formData.address}
                         onChange={e => setFormData({ ...formData, address: e.target.value })}
                         placeholder="Lokasi pengiriman spesifik..."
                         className="bg-transparent border-none focus:ring-0 w-full font-bold text-brand-dark h-32 resize-none uppercase text-xs tracking-widest leading-loose"

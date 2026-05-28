@@ -1,7 +1,3 @@
-import crispyChickenImg from '@/assets/images/crispy_chicken_burger_1779104572123.png';
-import originalPattyImg from '@/assets/images/original_patty_burger_1779104588340.png';
-import maxComboImg from '@/assets/images/max_combo_burger_extreme_1779104605992.png';
-
 export interface MenuItem {
   id: string;
   name: string;
@@ -18,7 +14,7 @@ export const MENU_ITEMS: MenuItem[] = [
     description:
       'Ayam krispi premium dengan saus spesial House of Mertua, selada segar, dan keju lumer.',
     price: 18000,
-    image: crispyChickenImg,
+    image: './image_assets/crispy_chicken.png',
     tag: 'Best Seller',
   },
   {
@@ -27,7 +23,7 @@ export const MENU_ITEMS: MenuItem[] = [
     description:
       'Daging ayam pilihan dengan bumbu rahasia yang dipanggang sempurna, disajikan dengan selada segar dan bawang bombay.',
     price: 18000,
-    image: originalPattyImg,
+    image: './image_assets/patty.png',
   },
   {
     id: 'max-combo',
@@ -35,7 +31,7 @@ export const MENU_ITEMS: MenuItem[] = [
     description:
       'Kenikmatan maksimal dengan crispy plus patty chicken, extra keju,dan extra selada',
     price: 26000,
-    image: maxComboImg,
+    image: './image_assets/max_combo.png',
     tag: 'Extreme',
   },
 ];

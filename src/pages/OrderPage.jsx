@@ -10,8 +10,6 @@ export default function OrderPage() {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [selectedDetailItem, setSelectedDetailItem] = useState(null);
 
-  console.log(cart)
-
   return (
     <div className="pt-32 pb-24 min-h-screen bg-brand-dark">
       <div className="max-w-7xl mx-auto px-6 lg:px-12 grid grid-cols-1 lg:grid-cols-12 gap-12">
@@ -50,10 +48,6 @@ export default function OrderPage() {
                   <h3 className="text-2xl md:text-3xl font-black italic uppercase mb-2 group-hover:text-brand-red transition-colors">
                     {item.name}
                   </h3>
-                  <p className="text-gray-400 text-sm leading-relaxed mb-4 italic font-medium max-w-md">
-                    {item.description}
-                  </p>
-                
                 </div>
 
                 <div

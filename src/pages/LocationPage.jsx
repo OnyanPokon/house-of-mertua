@@ -135,7 +135,7 @@ export default function LocationsPage() {
                    <Navigation size={48} className="text-brand-red mb-6 animate-bounce" />
                    <h3 className="text-2xl font-black italic tracking-tighter uppercase mb-4">Map View Restricted</h3>
                    <p className="text-sm text-gray-500 font-medium italic max-w-sm">
-                     "Peta lokasi hanya tersedia dengan Google Maps API Key yang valid. Silakan hubungi admin untuk aktivasi."
+                     &quot;Peta lokasi hanya tersedia dengan Google Maps API Key yang valid. Silakan hubungi admin untuk aktivasi.&quot;
                    </p>
                 </div>
               )}

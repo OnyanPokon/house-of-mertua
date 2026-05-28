@@ -5,29 +5,20 @@ import { X, ChevronLeft, ChevronRight, Award } from 'lucide-react';
 import { useNavigate, useLocation } from 'react-router-dom';
 import { useCart } from '../context/CartContext';
 
-import crispyChickenImg from '@/assets/images/crispy_chicken_burger_1779104572123.png';
-import chickenCloseupImg from '@/assets/images/chicken_choice_closeup_1779346377389.png';
-
-import originalPattyImg from '@/assets/images/original_patty_burger_1779104588340.png';
-import pattyCloseupImg from '@/assets/images/patty_choice_closeup_1779346405485.png';
-
-import maxComboImg from '@/assets/images/max_combo_burger_extreme_1779104605992.png';
-import comboCloseupImg from '@/assets/images/combo_extreme_closeup_1779346432808.png';
-
 
 const SLIDE_DATA = {
     'crispy-chicken': {
         slides: [
             {
                 type: 'hero',
-                image: crispyChickenImg,
+                image: './image_assets/crispy_chicken.png',
                 title: 'Crispy Chicken',
                 description:
                     'Daging paha ayam juicy yang digoreng krispi emas sempurna dengan balutan tepung bumbu rahasia keluarga.',
             },
             {
                 type: 'closeup',
-                image: chickenCloseupImg,
+                image: '/image_assets/crispy_chicken_closeup.png',
                 title: 'Precision Crispy Fry',
                 description:
                     'Digoreng pada suhu sempurna 175°C untuk mengunci kelembapan daging dan menghasilkan tekstur kriuk luar biasa pada gigitan pertama.',
@@ -51,14 +42,14 @@ const SLIDE_DATA = {
         slides: [
             {
                 type: 'hero',
-                image: originalPattyImg,
+                image: './image_assets/patty.png',
                 title: 'Original Patty',
                 description:
                     '100% daging ayam pilihan dipanggang sempurna dengan taburan bumbu racikan tradisional khas Mertua.',
             },
             {
                 type: 'closeup',
-                image: pattyCloseupImg,
+                image: './image_assets/patty_closeup.png',
                 title: 'Flame Sear Mastery',
                 description:
                     'Proses pemanggangan untuk menghasilkan cita rasa smoky dan juicy yang khas.',
@@ -82,14 +73,14 @@ const SLIDE_DATA = {
         slides: [
             {
                 type: 'hero',
-                image: maxComboImg,
+                image: './image_assets/max_combo.png',
                 title: 'Max Combo Extreme',
                 description:
                     'Kombinasi crispy chicken dan chicken patty dengan extra cheese dan sayuran fresh.',
             },
             {
                 type: 'closeup',
-                image: comboCloseupImg,
+                image: './image_assets/max_combo_closeup.png',
                 title: 'The Ultimate Stack',
                 description:
                     'Perpaduan saus spesial, keju lumer, dan ayam crispy tebal dalam satu gigitan maksimal.',

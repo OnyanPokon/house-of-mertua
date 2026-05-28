@@ -1,9 +1,9 @@
 import { motion } from "motion/react";
 import { Info, Truck, ShieldCheck, Clock, ArrowRight } from "lucide-react";
 import { Link } from "react-router-dom";
-import ProductDetailModal from "../components/ProductDetailModal";
 import { useState } from "react";
 import { MENU_ITEMS } from "../constants";
+import { ProductDetailModal } from "@/components";
 
 export default function LandingPage() {
   const [selectedItem, setSelectedItem] = useState(null);
